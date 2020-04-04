@@ -37,4 +37,14 @@
     width: 40%;
     margin:0 10px;
 }
+
+@media screen and (max-width: 700px){
+	.about {
+		flex-direction: column;
+	}
+
+	.me {
+		width: 100%;
+	}
+}
 </style>

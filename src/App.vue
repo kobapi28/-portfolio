@@ -53,7 +53,6 @@ export default {
   position: relative;
   font-size: 2em;
   color: #333;
-  text-align: center;
 }
 
 .content-title::before,
