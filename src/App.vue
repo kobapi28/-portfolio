@@ -1,10 +1,12 @@
 <template>
   <div id="app">
     <Header></Header>
+
     <About></About>
     <Skill></Skill>
     <Work></Work>
     <Contact></Contact>
+
     <Footer></Footer>
   </div>
 </template>
@@ -38,5 +40,37 @@ export default {
 #app{
   font-family:'Comic Neue',cursive ;
   text-align: center;
+}
+
+.icon{
+  font-size: 0.8em;
+}
+
+
+
+.content-title {
+  margin-top: 100px;
+  position: relative;
+  font-size: 2em;
+  color: #333;
+  text-align: center;
+}
+
+.content-title::before,
+.content-title::after {
+  position: absolute;
+  top: 50%;
+  display: inline-block;
+  width: 15%;
+  content: '';
+  border-top: 3px solid #333;
+}
+
+.content-title::before {
+  left: 15%;
+}
+
+.content-title::after {
+  right: 15%;
 }
 </style>
