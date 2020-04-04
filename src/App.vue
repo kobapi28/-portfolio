@@ -1,27 +1,34 @@
 <template>
   <div id="app">
     <Header></Header>
-    <Content title="About"></Content>
-    <Content title="Work"></Content>
-    <Content title="Skill"></Content>
-    <Content title="Contact"></Content>
+    <About></About>
+    <Skill></Skill>
+    <Work></Work>
+    <Contact></Contact>
     <Footer></Footer>
   </div>
 </template>
 
+
 <script>
 
 import Header from './components/Header.vue'
-import Content from './components/Content.vue'
 import Footer from './components/Footer.vue'
+import About from './components/About.vue'
+import Skill from './components/Skill.vue'
+import Work from './components/Work.vue'
+import Contact from './components/Contact.vue'
 import 'normalize.css'
 
 export default {
   name: 'App',
   components: {
     Header,
-    Content,
-    Footer
+    Footer,
+    About,
+    Skill,
+    Work,
+    Contact
   }
 }
 </script>
