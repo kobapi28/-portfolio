@@ -36,4 +36,13 @@ export default{
   margin-right: 0;
   padding: auto;
 }
+
+@media screen and (max-width: 700px){
+	.nav{
+    display: none;
+  }
+  .title{
+    margin: auto;
+  }
+}
 </style>

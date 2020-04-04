@@ -14,8 +14,8 @@
               </div>
 
               <div class="me">
-                <h2>Age</h2>
-                <p>17</p>
+                <h2><font-awesome-icon icon="birthday-cake" class="icon"/> Birthday</h2>
+                <p>2002-12-28</p>
               </div>
             </div>
             
