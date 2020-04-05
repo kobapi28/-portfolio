@@ -54,6 +54,7 @@ export default {
 
 .content-title {
   margin-top: 100px;
+  margin-bottom: 50px;
   position: relative;
   font-size: 2em;
   color: #333;

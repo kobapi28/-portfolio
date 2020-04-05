@@ -31,21 +31,26 @@
   list-style-type: none;
   padding-left: 0;
   text-align: center;
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 .work-content{
 	width: 350px;
 	padding: 10px;
-	margin: 30px;
-    display: inline-block;
-    border: 1px black solid;
-    border-radius: 10px;
+	margin: 30px 60px;
+  display: inline-block;
+  border: 1px black solid;
+  border-radius: 10px;
+}
+
+.work-content:hover{
+  background-color: rgba(50, 50, 100, 0.3);
 }
 
 .works-image{
-    max-width: 330px;
+    max-width: 310px;
+    padding: 10px;
     border: 1px solid black;
     border-radius: 10px;
 }
@@ -57,13 +62,14 @@
   }
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 550px){
   .work-content{
     width: 250px;
     margin: 20px 10px;
   }
   .works-image{
-    width: 230px;
+    width: 210px;
+    padding: 10px;
   }
 }
 </style>

@@ -20,7 +20,7 @@
             </div>
             
 
-            <h2><font-awesome-icon icon="search" class="icon"/> Recent interests</h2>
+            <h2><font-awesome-icon icon="search" class="icon resent"/> Recent interests</h2>
             <p class="text">Vue.js<br>UI,UX design</p>
         </div>
     </div>
@@ -30,21 +30,26 @@
 <style>
 .about{
     display:inline-flex;
-    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.resent{
+  margin-top: 50px;
 }
 
 .me{
-    width: 40%;
-    margin:0 10px;
+    margin:0 35px;
 }
 
-@media screen and (max-width: 700px){
+
+@media screen and (max-width: 768px){
 	.about {
 		flex-direction: column;
 	}
 
 	.me {
-		width: 100%;
+    margin: 0 auto;
 	}
 }
 </style>

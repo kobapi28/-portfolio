@@ -4,16 +4,40 @@
         <div>
             <div class="languages">
                 <div class="lang">
-                    <font-awesome-icon :icon="['fab','html5']" class="lang-icon" />
-                    <h3>HTML</h3>
+                    <img src="../assets/html-5.svg" alt="logo" class="lang-image">
+                    <h3 class="lang-comment">HTML</h3>
                 </div>
                 <div class="lang">
-                    <font-awesome-icon :icon="['fab','css3-alt']" class="lang-icon" />
+                    <img src="../assets/css-3.svg" alt="logo" class="lang-image">
                     <h3>CSS</h3>
                 </div>
                 <div class="lang">
-                    <font-awesome-icon :icon="['fab','js-square']" class="lang-icon" />
+                    <img src="../assets/javascript.svg" alt="logo" class="lang-image">
                     <h3>JavaScript</h3>
+                </div>
+                <div class="lang">
+                    <img src="../assets/vue.svg" alt="logo" class="lang-image">
+                    <h3>Vue.js</h3>
+                </div>
+                <div class="lang">
+                    <img src="../assets/kotlin.svg" alt="logo" class="lang-image">
+                    <h3>Kotlin</h3>
+                </div>
+                <div class="lang">
+                    <img src="../assets/android.svg" alt="logo" class="lang-image">
+                    <h3>Android</h3>
+                </div>
+                <div class="lang">
+                    <img src="../assets/C++.svg" alt="logo" class="lang-image">
+                    <h3>C++</h3>
+                </div>
+                <div class="lang">
+                    <img src="../assets/git.svg" alt="logo" class="lang-image">
+                    <h3>Git</h3>
+                </div>
+                <div class="lang">
+                    <img src="../assets/github.svg" alt="logo" class="lang-image">
+                    <h3>Github</h3>
                 </div>
             </div>
         </div>
@@ -23,28 +47,29 @@
 
 <style>
 .languages{
-    display: inline-flex;
-    width: 60%;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 .lang{
-    width: 30%;
-    margin :0 10px;
+    margin :10px 30px;
+    display: inline-block;
+    width: 100px;
 }
 
-.lang-icon{
-    font-size: 3em;
+.lang-comment{
+    width: 100px;
 }
 
-@media screen and (max-width: 500px){
-	.languages {
-		flex-direction: column;
-	}
-
-	.lang {
-		width: 100%;
-	}
+.lang-image{
+    height: 50px;
+    width: 50px;
 }
+
+
+
+
 </style>
 
 
