@@ -1,5 +1,10 @@
 # profile
 
+## What is the repository
+
+This is my site using Vue.js.<br>
+[LINK](https://shoma-profile.netlify.com)
+
 ## Project setup
 ```
 npm install
