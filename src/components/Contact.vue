@@ -3,7 +3,7 @@
         <h1 class="content-title"><font-awesome-icon icon="handshake" class="icon"/> Contact</h1>
         <div class="sam">
             <h2><font-awesome-icon icon="map-marker-alt" class="icon"/> Location</h2>
-            <p>Japan,Mie<br>Suzuka city</p>
+            <p class="text">Japan,Mie<br>Suzuka city</p>
 
             <h2><font-awesome-icon icon="globe" class="icon"/> Around the web</h2>
             <div class="link">

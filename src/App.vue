@@ -46,6 +46,10 @@ export default {
   font-size: 0.8em;
 }
 
+.text{
+    font-weight: 500;
+}
+
 
 
 .content-title {

@@ -1,12 +1,12 @@
 <template>
   <div class="header">
     <div class="header-inner">
-      <h1 class="title">Profile</h1>
+      <h1 class="title">Shoma's Profile</h1>
       <Nav class="nav"></Nav>
     </div>
 
     <div class="header-res">
-      <h1 class="title-res">Profile</h1>
+      <h1 class="title-res">Shoma's Profile</h1>
       <div class="nav-res">
         <div class="link-content">
           <font-awesome-icon icon="user-circle" class="nav-icon"/>
@@ -42,6 +42,10 @@ export default{
 <style>
 .header{
   background-color:pink;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
 }
 
 .header-inner{
@@ -65,7 +69,7 @@ export default{
 
 .title-res{
   margin: auto;
-  padding: 5px;
+  padding: 10px;
 }
 
 .nav-res{
@@ -82,6 +86,7 @@ export default{
 
 .comment{
   margin:5px 0;
+  font-weight: 500;
 }
 
 .link-content{
@@ -90,7 +95,7 @@ export default{
   text-align: center;
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 768px){
 	.header-inner{
     display: none;
   }
