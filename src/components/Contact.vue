@@ -34,42 +34,64 @@
 
 .web-icon{
     font-size: 2em;
-    color: white;
+    background-color: white;
     padding:0.3em;
     border-radius: 50%;
 }
 
 .web-icon:hover{
-    background-color: white;
+    color: white;
 }
 
 .twitter{
-    background-color: #1DA1F2;
+    color: #1DA1F2;
 }
 .twitter:hover{
-    color: #1DA1F2;
+    background-color: #1DA1F2;
 }
 
 
 .mail{
-    background-color: #DD5144;
+    color: #DD5144;
 }
 .mail:hover{
-    color: #DD5144;
+    background-color: #DD5144;
 }
 
 .github{
-    background-color: #171515;
+    color: #171515;
 }
 .github:hover{
-    color: #171515;
+    background-color: #171515;
 }
 
 .hateblo{
-    background-color: #193278;
+    color: #193278;
 }
 .hateblo:hover{
-    color: #193278;
+    background-color: #193278;
+}
+
+@media screen and (max-width: 768px){
+    .web-icon{
+        color:white;
+    }
+
+    .twitter{
+        background-color: #1DA1F2;
+    }
+
+    .mail{
+        background-color: #DD5144;
+    }
+
+    .github{
+        background-color: #171515;
+    }
+
+    .hateblo{
+        background-color: #193278;
+    }
 }
 </style>
 

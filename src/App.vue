@@ -72,4 +72,20 @@ export default {
 .content-title::after {
   right: 15%;
 }
+
+
+@media screen and (max-width: 600px){
+  .content-title::before,
+  .content-title::after {
+    width: 10%;
+  }
+
+  .content-title::before {
+    left: 10%;
+  }
+
+  .content-title::after {
+    right: 10%;
+  }
+}
 </style>
