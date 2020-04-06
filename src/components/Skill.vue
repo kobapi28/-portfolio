@@ -4,39 +4,39 @@
         <div>
             <div class="languages">
                 <div class="lang">
-                    <img src="../assets/html-5.svg" alt="logo" class="lang-image">
+                    <img src="../assets/lang/html-5.svg" alt="logo" class="lang-image">
                     <h3 class="lang-comment">HTML</h3>
                 </div>
                 <div class="lang">
-                    <img src="../assets/css-3.svg" alt="logo" class="lang-image">
+                    <img src="../assets/lang/css-3.svg" alt="logo" class="lang-image">
                     <h3>CSS</h3>
                 </div>
                 <div class="lang">
-                    <img src="../assets/javascript.svg" alt="logo" class="lang-image">
+                    <img src="../assets/lang/javascript.svg" alt="logo" class="lang-image">
                     <h3>JavaScript</h3>
                 </div>
                 <div class="lang">
-                    <img src="../assets/vue.svg" alt="logo" class="lang-image">
+                    <img src="../assets/lang/vue.svg" alt="logo" class="lang-image">
                     <h3>Vue.js</h3>
                 </div>
                 <div class="lang">
-                    <img src="../assets/kotlin.svg" alt="logo" class="lang-image">
+                    <img src="../assets/lang/kotlin.svg" alt="logo" class="lang-image">
                     <h3>Kotlin</h3>
                 </div>
                 <div class="lang">
-                    <img src="../assets/android.svg" alt="logo" class="lang-image">
+                    <img src="../assets/lang/android.svg" alt="logo" class="lang-image">
                     <h3>Android</h3>
                 </div>
                 <div class="lang">
-                    <img src="../assets/C++.svg" alt="logo" class="lang-image">
+                    <img src="../assets/lang/C++.svg" alt="logo" class="lang-image">
                     <h3>C++</h3>
                 </div>
                 <div class="lang">
-                    <img src="../assets/git.svg" alt="logo" class="lang-image">
+                    <img src="../assets/lang/git.svg" alt="logo" class="lang-image">
                     <h3>Git</h3>
                 </div>
                 <div class="lang">
-                    <img src="../assets/github.svg" alt="logo" class="lang-image">
+                    <img src="../assets/lang/github.svg" alt="logo" class="lang-image">
                     <h3>Github</h3>
                 </div>
             </div>
