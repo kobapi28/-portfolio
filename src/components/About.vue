@@ -30,8 +30,8 @@
 <style>
 .about{
     display:inline-flex;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .resent{
@@ -39,7 +39,7 @@
 }
 
 .me{
-    margin:0 35px;
+    margin:0 50px;
 }
 
 

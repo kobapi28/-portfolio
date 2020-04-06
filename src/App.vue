@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <Header></Header>
+    
 
     <About></About>
     <Skill></Skill>
@@ -20,6 +21,8 @@ import About from './components/About.vue'
 import Skill from './components/Skill.vue'
 import Work from './components/Work.vue'
 import Contact from './components/Contact.vue'
+
+
 import 'normalize.css'
 
 export default {
@@ -31,7 +34,7 @@ export default {
     Skill,
     Work,
     Contact
-  }
+  },
 }
 </script>
 
