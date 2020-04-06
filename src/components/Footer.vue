@@ -6,6 +6,7 @@
 
 <style>
 .footer{
+  margin-top: 100px;
     background-color: pink;
 }
 .title{

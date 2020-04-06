@@ -32,6 +32,7 @@
     display:inline-flex;
     padding-left: 5%;
     padding-right: 5%;
+    
 }
 
 .resent{

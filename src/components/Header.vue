@@ -8,22 +8,22 @@
     <div class="header-res">
       <h1 class="title-res">Shoma's Profile</h1>
       <div class="nav-res">
-        <div class="link-content">
+        <a href="#" class="link-content" @click="clickSmoothScroll('#about')">
           <font-awesome-icon icon="user-circle" class="nav-icon"/>
           <p class="comment">About</p>
-        </div>
-        <div class="link-content">
+        </a>
+        <a href="#" class="link-content" @click="clickSmoothScroll('#skill')">
           <font-awesome-icon icon="code" class="nav-icon"/>
           <p class="comment">Skill</p>
-        </div>
-        <div class="link-content">
+        </a>
+        <a href="#" class="link-content" @click="clickSmoothScroll('#work')">
           <font-awesome-icon icon="hammer" class="nav-icon"/>
           <p class="comment">Works</p>
-        </div>
-        <div class="link-content">
+        </a>
+        <a href="#" class="link-content" @click="clickSmoothScroll('#contact')">
           <font-awesome-icon icon="handshake" class="nav-icon"/>
           <p class="comment">Contact</p>
-        </div>
+        </a>
       </div>
     </div>
   </div>
@@ -35,8 +35,21 @@ import Nav from './Nav.vue'
 export default{
     components:{
         Nav,
+    },
+    methods: {
+    clickSmoothScroll (x) {
+      event.preventDefault()
+      this.$SmoothScroll(
+        document.querySelector(x),
+        800,
+        null,
+        null,
+        'y'
+      )
     }
+  }
 }
+
 </script>
 
 <style>
@@ -90,6 +103,8 @@ export default{
 }
 
 .link-content{
+  color: black;
+  text-decoration: none;
   min-width: 8%;
   font-size: 10px;
   text-align: center;

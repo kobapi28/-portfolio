@@ -3,10 +3,10 @@
     <Header></Header>
     
 
-    <About></About>
-    <Skill></Skill>
-    <Work></Work>
-    <Contact></Contact>
+    <About id="about"></About>
+    <Skill id="skill"></Skill>
+    <Work id="work"></Work>
+    <Contact id="contact"></Contact>
 
     <Footer></Footer>
   </div>
@@ -56,8 +56,8 @@ export default {
 
 
 .content-title {
-  margin-top: 100px;
-  margin-bottom: 50px;
+  padding: 100px 0px;
+  margin: 50px 0 0px 0;
   position: relative;
   font-size: 2em;
   color: #333;
@@ -95,5 +95,6 @@ export default {
   .content-title::after {
     right: 10%;
   }
+  
 }
 </style>
