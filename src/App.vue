@@ -1,11 +1,12 @@
 <template>
   <div id="app">
     <Header></Header>
+    
 
-    <About></About>
-    <Skill></Skill>
-    <Work></Work>
-    <Contact></Contact>
+    <About id="about"></About>
+    <Skill id="skill"></Skill>
+    <Work id="work"></Work>
+    <Contact id="contact"></Contact>
 
     <Footer></Footer>
   </div>
@@ -20,6 +21,8 @@ import About from './components/About.vue'
 import Skill from './components/Skill.vue'
 import Work from './components/Work.vue'
 import Contact from './components/Contact.vue'
+
+
 import 'normalize.css'
 
 export default {
@@ -31,7 +34,7 @@ export default {
     Skill,
     Work,
     Contact
-  }
+  },
 }
 </script>
 
@@ -46,10 +49,15 @@ export default {
   font-size: 0.8em;
 }
 
+.text{
+    font-weight: 500;
+}
+
 
 
 .content-title {
-  margin-top: 100px;
+  padding: 100px 0px;
+  margin: 50px 0 0px 0;
   position: relative;
   font-size: 2em;
   color: #333;
@@ -87,5 +95,6 @@ export default {
   .content-title::after {
     right: 10%;
   }
+  
 }
 </style>

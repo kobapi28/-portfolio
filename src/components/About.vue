@@ -5,23 +5,23 @@
             <div class="about">
               <div class="me">
                 <h2><font-awesome-icon icon="pen" class="icon"/> Name</h2>
-                <p>Shoma Kobayashi</p>
+                <p class="text">Shoma Kobayashi</p>
               </div>
 
               <div class="me">
                 <h2><font-awesome-icon icon="school" class="icon"/> School</h2>
-                <p>NIT Suzuka College</p>
+                <p class="text">NIT Suzuka College</p>
               </div>
 
               <div class="me">
                 <h2><font-awesome-icon icon="birthday-cake" class="icon"/> Birthday</h2>
-                <p>2002-12-28</p>
+                <p class="text">2002-12-28</p>
               </div>
             </div>
             
 
-            <h2><font-awesome-icon icon="search" class="icon"/> Recent interests</h2>
-            <p>Vue.js<br>UI,UX design</p>
+            <h2><font-awesome-icon icon="search" class="icon resent"/> Recent interests</h2>
+            <p class="text">Vue.js<br>UI,UX design</p>
         </div>
     </div>
 </template>
@@ -30,21 +30,27 @@
 <style>
 .about{
     display:inline-flex;
-    width: 80%;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+
+.resent{
+  margin-top: 50px;
 }
 
 .me{
-    width: 40%;
-    margin:0 10px;
+    margin:0 50px;
 }
 
-@media screen and (max-width: 700px){
+
+@media screen and (max-width: 768px){
 	.about {
 		flex-direction: column;
 	}
 
 	.me {
-		width: 100%;
+    margin: 0 auto;
 	}
 }
 </style>
