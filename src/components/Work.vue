@@ -10,7 +10,7 @@
               <p class="card-text">自分の行程に合わせた天気予報がわかるアプリ</p>
               <p class="card-lang">Language : Kotlin</p>
               <br>
-              <br>
+              <a href="https://github.com/shoma3571/tavinow" class="card-link github-link">Github</a>
             </div>
           </li>
           <li class="card">
