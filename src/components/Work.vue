@@ -29,7 +29,7 @@
             <div class="card-content">
               <h1 class="card-title">IdeaTree</h1>
               <p class="card-text">アイデア出しを助けるアプリ</p>
-              <p class="card-lang">Language : JavaScript,Python</p>
+              <p class="card-lang">Language : JavaScript,Python(Django)</p>
               <br>
               <a href="https://ideatree7386.herokuapp.com/Idea/" class="card-link">Website</a>
               <a href="https://github.com/shoma3571/idea-tree" class="card-link github-link">Github</a>

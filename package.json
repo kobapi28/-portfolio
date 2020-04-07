@@ -12,9 +12,13 @@
     "@fortawesome/free-brands-svg-icons": "^5.13.0",
     "@fortawesome/free-solid-svg-icons": "^5.13.0",
     "@fortawesome/vue-fontawesome": "^0.1.9",
+    "@jeremyhamm/vue-slider": "^0.2.0",
     "core-js": "^3.6.4",
     "vue": "^2.6.11",
-    "vue-smoothscroll": "^0.2.0"
+    "vue-burger-menu": "^2.0.5",
+    "vue-particles": "^1.0.9",
+    "vue-smoothscroll": "^0.2.0",
+    "vue-typer": "^1.2.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.2.0",
