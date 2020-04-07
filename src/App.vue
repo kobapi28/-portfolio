@@ -87,6 +87,7 @@ export default {
 @import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,300&display=swap");
 #app{
   font-family:'Comic Neue',cursive ;
+  font-style: italic;
   text-align: center;
 }
 
