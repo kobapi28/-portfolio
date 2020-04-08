@@ -36,7 +36,7 @@
             </div>
           </li>
           <li class="card">
-            <img class="card-img" src="../assets/work/sky.jpg" alt="">
+            <img class="card-img" src="../assets/work/this.png" alt="">
             <div class="card-content">
               <h1 class="card-title">This site</h1>
               <p class="card-text">私のプロフィールサイト</p>
