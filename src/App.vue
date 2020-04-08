@@ -94,7 +94,7 @@ export default {
 #top{
   position: relative;
   /*background-image: url(./assets/yoru2.jpg);*/
-  background-color: black;
+  background-color:#03111a;
   background-size: cover;
   height: 100vh;
 }
