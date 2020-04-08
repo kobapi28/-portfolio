@@ -84,10 +84,11 @@ export default {
 </script>
 
 <style>
-@import url("https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,300&display=swap");
 
 #app{
-  font-family: 'M PLUS 1p', sans-serif;
+  font-family:'Comic Neue',cursive ;
+  font-style: italic;
   text-align: center;
 }
 
