@@ -2,7 +2,7 @@
     <div>
         <h1 class="content-title"><font-awesome-icon icon="code" class="icon"/> Skill</h1>
         <div>
-            <h2><font-awesome-icon icon="globe" class="icon"/> languages</h2>
+            <h2><font-awesome-icon icon="file-code" class="icon"/> languages</h2>
             <div class="items">
                 <div class="item">
                     <img src="../assets/lang/html-5.svg" alt="logo" class="item-image">
@@ -31,7 +31,7 @@
             </div>
             
 
-            <h2><font-awesome-icon icon="globe" class="icon"/> frameworks</h2>
+            <h2><font-awesome-icon icon="archive" class="icon"/> frameworks</h2>
             <div class="items">
                 <div class="item">
                     <img src="../assets/lang/vue.svg" alt="logo" class="item-image">
@@ -55,7 +55,7 @@
                 </div>
             </div>
 
-            <h2><font-awesome-icon icon="globe" class="icon"/> others</h2>
+            <h2><font-awesome-icon icon="toolbox" class="icon"/> others</h2>
             <div class="items">
                 <div class="item">
                     <img src="../assets/lang/git.svg" alt="logo" class="item-image">
