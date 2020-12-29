@@ -4,16 +4,6 @@
         
         <ul class="works">
           <li class="card">
-            <img class="card-img" src="../assets/work/sky.jpg" alt="">
-            <div class="card-content">
-              <h1 class="card-title">Tavinow</h1>
-              <p class="card-text">自分の行程に合わせた天気予報がわかるアプリ</p>
-              <p class="card-lang">Language : Kotlin</p>
-              <br>
-              <a href="https://github.com/shoma3571/tavinow" class="card-link github-link">Github</a>
-            </div>
-          </li>
-          <li class="card">
             <img class="card-img" src="../assets/work/graph.png" alt="">
             <div class="card-content">
               <h1 class="card-title jp">三重県コロナウイルス対策サイト</h1>
@@ -21,18 +11,7 @@
               <p class="card-lang">Language : JavaScript(Vue.js,Nuxt.js)</p>
               <br>
               <a href="https://mie.stopcovid19.jp" class="card-link">Website</a>
-              <a href="https://github.com/shoma3571/covid19-mie/tree/Feature_shoma" class="card-link github-link">Github</a>
-            </div>
-          </li>
-          <li class="card">
-            <img class="card-img" src="../assets/work/tree.jpg" alt="">
-            <div class="card-content">
-              <h1 class="card-title">IdeaTree</h1>
-              <p class="card-text">アイデア出しを助けるアプリ</p>
-              <p class="card-lang">Language : JavaScript,Python(Django)</p>
-              <br>
-              <a href="https://ideatree7386.herokuapp.com/Idea/" class="card-link">Website</a>
-              <a href="https://github.com/shoma3571/idea-tree" class="card-link github-link">Github</a>
+              <a href="https://github.com/FlexiblePrintedCircuits/covid19-mie" class="card-link github-link">Github</a>
             </div>
           </li>
           <li class="card">
