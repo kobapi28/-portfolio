@@ -21,13 +21,16 @@
             
 
             <h2><font-awesome-icon icon="search" class="icon resent"/> Recent interests</h2>
-            <p class="text">Vue.js<br>UI,UX design</p>
+            <p class="text">
+              UI,UXデザインやプロジェクトの総合的なデザインに興味があります。<br>
+              デザインとインターフェイスをうまく形に落とせるフロントエンドエンジニアに。
+            </p>
         </div>
     </div>
 </template>
 
 
-<style>
+<style scoped>
 .about{
     display:inline-flex;
     padding-left: 5%;
@@ -41,6 +44,10 @@
 
 .me{
     margin:0 50px;
+}
+
+.text{
+  font-weight: 300;
 }
 
 
