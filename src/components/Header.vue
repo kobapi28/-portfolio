@@ -1,7 +1,7 @@
 <template>
   <div class="header">
     <div class="header-inner">
-      <h1 class="title">Shoma's Profile</h1>
+      <h1 class="title" @click="clickSmoothScroll('#app')">Shoma's Profile</h1>
       <Nav class="nav"></Nav>
     </div>
   </div>
@@ -14,7 +14,19 @@ import Nav from './Nav.vue'
 export default{
     components:{
         Nav
+    },
+    methods:{
+    clickSmoothScroll (x) {
+      event.preventDefault()
+      this.$SmoothScroll(
+        document.querySelector(x),
+        800,
+        null,
+        null,
+        'y'
+      )
     }
+  }
 }
 
 </script>
@@ -36,6 +48,7 @@ export default{
 .title{
   padding:20px 0px;
   margin:unset;
+  cursor: pointer;
 }
 .nav{
   margin: auto ;
