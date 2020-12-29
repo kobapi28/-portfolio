@@ -134,6 +134,23 @@
       padding-left: 1%;
       padding-right: 1%;
   }
+
+  .card-link{
+    border: 2px solid #00aaff;
+    background-color: #00aaff;
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+
+    font-weight: bold;
+  }
+
+  .github-link{
+    background-color: #171515;
+    border-color: #171515;
+  }
 }
 
 @media screen and (max-width: 550px){
@@ -141,5 +158,7 @@
     width: 280px;
     margin: 30px 0;
   }
+
+  
 }
 </style>
