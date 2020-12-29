@@ -15,6 +15,17 @@
             </div>
           </li>
           <li class="card">
+            <img class="card-img" src="../assets/work/logo.png" alt="">
+            <div class="card-content">
+              <h1 class="card-title jp">Fulfill</h1>
+              <p class="card-text">JPHACKS2020提出作品</p>
+              <p class="card-lang">Language : JavaScript(Vue.js,Ionic)</p>
+              <br>
+              <a href="https://c-2006.firebaseapp.com/" class="card-link">Website</a>
+              <a href="https://github.com/jphacks/C_2006" class="card-link github-link">Github</a>
+            </div>
+          </li>
+          <li class="card">
             <img class="card-img" src="../assets/work/this.png" alt="">
             <div class="card-content">
               <h1 class="card-title">This site</h1>
@@ -58,8 +69,7 @@
 }
 .card-img {
   border-radius: 5px 5px 0 0;
-  width: 100%;
-  height: auto;
+  max-height: 200px;
 }
 .card-content {
   padding: 20px;
