@@ -2,42 +2,72 @@
     <div>
         <h1 class="content-title"><font-awesome-icon icon="code" class="icon"/> Skill</h1>
         <div>
-            <div class="languages">
-                <div class="lang">
-                    <img src="../assets/lang/html-5.svg" alt="logo" class="lang-image">
-                    <h3 class="lang-comment">HTML</h3>
+            <h2><font-awesome-icon icon="globe" class="icon"/> languages</h2>
+            <div class="items">
+                <div class="item">
+                    <img src="../assets/lang/html-5.svg" alt="logo" class="item-image">
+                    <h3>html</h3>
                 </div>
-                <div class="lang">
-                    <img src="../assets/lang/css-3.svg" alt="logo" class="lang-image">
-                    <h3>CSS</h3>
+                <div class="item">
+                    <img src="../assets/lang/css-3.svg" alt="logo" class="item-image">
+                    <h3>css</h3>
                 </div>
-                <div class="lang">
-                    <img src="../assets/lang/javascript.svg" alt="logo" class="lang-image">
+                <div class="item">
+                    <img src="../assets/lang/javascript.svg" alt="logo" class="item-image">
                     <h3>JavaScript</h3>
                 </div>
-                <div class="lang">
-                    <img src="../assets/lang/vue.svg" alt="logo" class="lang-image">
-                    <h3>Vue.js</h3>
+                <div class="item">
+                    <img src="../assets/lang/typescript.svg" alt="logo" class="item-image">
+                    <h3>TypeScript</h3>
                 </div>
-                <div class="lang">
-                    <img src="../assets/lang/kotlin.svg" alt="logo" class="lang-image">
+                <div class="item">
+                    <img src="../assets/lang/kotlin.svg" alt="logo" class="item-image">
                     <h3>Kotlin</h3>
                 </div>
-                <div class="lang">
-                    <img src="../assets/lang/android.svg" alt="logo" class="lang-image">
-                    <h3>Android</h3>
-                </div>
-                <div class="lang">
-                    <img src="../assets/lang/C++.svg" alt="logo" class="lang-image">
+                <div class="item">
+                    <img src="../assets/lang/C++.svg" alt="logo" class="item-image">
                     <h3>C++</h3>
                 </div>
-                <div class="lang">
-                    <img src="../assets/lang/git.svg" alt="logo" class="lang-image">
+            </div>
+            
+
+            <h2><font-awesome-icon icon="globe" class="icon"/> frameworks</h2>
+            <div class="items">
+                <div class="item">
+                    <img src="../assets/lang/vue.svg" alt="logo" class="item-image">
+                    <h3>Vue.js</h3>
+                </div>
+                <div class="item">
+                    <img src="../assets/lang/nuxt.svg" alt="logo" class="item-image">
+                    <h3>Nuxt.js</h3>
+                </div>
+                <div class="item">
+                    <img src="../assets/lang/angular.svg" alt="logo" class="item-image">
+                    <h3>Angular</h3>
+                </div>
+                <div class="item">
+                    <img src="../assets/lang/ionic.svg" alt="logo" class="item-image">
+                    <h3>Ionic</h3>
+                </div>
+                <div class="item">
+                    <img src="../assets/lang/android.svg" alt="logo" class="item-image">
+                    <h3>Android</h3>
+                </div>
+            </div>
+
+            <h2><font-awesome-icon icon="globe" class="icon"/> others</h2>
+            <div class="items">
+                <div class="item">
+                    <img src="../assets/lang/git.svg" alt="logo" class="item-image">
                     <h3>Git</h3>
                 </div>
-                <div class="lang">
-                    <img src="../assets/lang/github.svg" alt="logo" class="lang-image">
-                    <h3>Github</h3>
+                <div class="item">
+                    <img src="../assets/lang/github.svg" alt="logo" class="item-image">
+                    <h3>GitHub</h3>
+                </div>
+                <div class="item">
+                    <img src="../assets/lang/firebase.svg" alt="logo" class="item-image">
+                    <h3>Firebase</h3>
                 </div>
             </div>
         </div>
@@ -46,23 +76,24 @@
 
 
 <style>
-.languages{
+.items{
     text-align: center;
     padding-left: 15%;
     padding-right: 15%;
+    margin-bottom: 50px;
 }
 
-.lang{
+.item{
     margin :10px 30px;
     display: inline-block;
     width: 100px;
 }
 
-.lang-comment{
+.item-comment{
     width: 100px;
 }
 
-.lang-image{
+.item-image{
     height: 50px;
     width: 50px;
 }
