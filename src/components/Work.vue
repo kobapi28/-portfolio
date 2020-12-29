@@ -89,20 +89,27 @@
 }
 
 .card-link{
-  border: 1px solid #00aaff;
+  border: 2px solid #00aaff;
   text-decoration: none;
   color: #00aaff;
   margin: 0 10px;
   padding: 5px 10px;
   border-radius: 5px;
+  transition: 0.4s;
+  font-weight: bold;
 }
 .card-link:hover {
-  font-weight: 700;
+  background-color: #00aaff;
+  color: white;
 }
 
 .github-link{
   border-color: #171515;
   color: #171515;
+}
+.github-link:hover {
+  background-color: #171515;
+  color: white;
 }
 
 
