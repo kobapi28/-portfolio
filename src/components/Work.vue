@@ -15,7 +15,7 @@
             </div>
           </li>
           <li class="card">
-            <img class="card-img" src="../assets/work/logo.png" alt="">
+            <img class="card-img" src="../assets/work/fulfill.png" alt="">
             <div class="card-content">
               <h1 class="card-title jp">Fulfill</h1>
               <p class="card-text">JPHACKS2020提出作品</p>
@@ -69,7 +69,9 @@
 }
 .card-img {
   border-radius: 5px 5px 0 0;
-  max-height: 200px;
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
 }
 .card-content {
   padding: 20px;
