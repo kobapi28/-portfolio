@@ -4,16 +4,6 @@
         
         <ul class="works">
           <li class="card">
-            <img class="card-img" src="../assets/work/sky.jpg" alt="">
-            <div class="card-content">
-              <h1 class="card-title">Tavinow</h1>
-              <p class="card-text">自分の行程に合わせた天気予報がわかるアプリ</p>
-              <p class="card-lang">Language : Kotlin</p>
-              <br>
-              <a href="https://github.com/shoma3571/tavinow" class="card-link github-link">Github</a>
-            </div>
-          </li>
-          <li class="card">
             <img class="card-img" src="../assets/work/graph.png" alt="">
             <div class="card-content">
               <h1 class="card-title jp">三重県コロナウイルス対策サイト</h1>
@@ -21,18 +11,18 @@
               <p class="card-lang">Language : JavaScript(Vue.js,Nuxt.js)</p>
               <br>
               <a href="https://mie.stopcovid19.jp" class="card-link">Website</a>
-              <a href="https://github.com/shoma3571/covid19-mie/tree/Feature_shoma" class="card-link github-link">Github</a>
+              <a href="https://github.com/FlexiblePrintedCircuits/covid19-mie" class="card-link github-link">Github</a>
             </div>
           </li>
           <li class="card">
-            <img class="card-img" src="../assets/work/tree.jpg" alt="">
+            <img class="card-img" src="../assets/work/fulfill.png" alt="">
             <div class="card-content">
-              <h1 class="card-title">IdeaTree</h1>
-              <p class="card-text">アイデア出しを助けるアプリ</p>
-              <p class="card-lang">Language : JavaScript,Python(Django)</p>
+              <h1 class="card-title jp">Fulfill</h1>
+              <p class="card-text">JPHACKS2020提出作品</p>
+              <p class="card-lang">Language : JavaScript(Vue.js,Ionic)</p>
               <br>
-              <a href="https://ideatree7386.herokuapp.com/Idea/" class="card-link">Website</a>
-              <a href="https://github.com/shoma3571/idea-tree" class="card-link github-link">Github</a>
+              <a href="https://c-2006.firebaseapp.com/" class="card-link">Website</a>
+              <a href="https://github.com/jphacks/C_2006" class="card-link github-link">Github</a>
             </div>
           </li>
           <li class="card">
@@ -80,7 +70,8 @@
 .card-img {
   border-radius: 5px 5px 0 0;
   width: 100%;
-  height: auto;
+  height: 200px;
+  object-fit: contain;
 }
 .card-content {
   padding: 20px;
@@ -98,20 +89,27 @@
 }
 
 .card-link{
-  border: 1px solid #00aaff;
+  border: 2px solid #00aaff;
   text-decoration: none;
   color: #00aaff;
   margin: 0 10px;
   padding: 5px 10px;
   border-radius: 5px;
+  transition: 0.4s;
+  font-weight: bold;
 }
 .card-link:hover {
-  font-weight: 700;
+  background-color: #00aaff;
+  color: white;
 }
 
 .github-link{
   border-color: #171515;
   color: #171515;
+}
+.github-link:hover {
+  background-color: #171515;
+  color: white;
 }
 
 
@@ -136,6 +134,23 @@
       padding-left: 1%;
       padding-right: 1%;
   }
+
+  .card-link{
+    border: 2px solid #00aaff;
+    background-color: #00aaff;
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+
+    font-weight: bold;
+  }
+
+  .github-link{
+    background-color: #171515;
+    border-color: #171515;
+  }
 }
 
 @media screen and (max-width: 550px){
@@ -143,5 +158,7 @@
     width: 280px;
     margin: 30px 0;
   }
+
+  
 }
 </style>

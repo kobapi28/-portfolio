@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <Header id="header"></Header>
-    <div class="res"><h1 class="res-title">Shoma's Profile</h1></div>
+    <div class="res"><h1 class="res-title" @click="clickSmoothScroll('#app')">Shoma's Profile</h1></div>
     <div class="nav-res">
         <a href="#" class="link-content" @click="clickSmoothScroll('#app')">
           <font-awesome-icon icon="image" class="nav-icon"/>

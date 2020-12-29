@@ -7,7 +7,7 @@
 
             <h2><font-awesome-icon icon="globe" class="icon"/> Around the web</h2>
             <div class="link">
-                <a href="http://twitter.com/shoma_h30" class="link-icon"><font-awesome-icon :icon="['fab','twitter']" class="web-icon twitter"/></a>
+                <a href="http://twitter.com/shoma_prog" class="link-icon"><font-awesome-icon :icon="['fab','twitter']" class="web-icon twitter"/></a>
                 <a href="mailto:sho1228.k@gmail.com" class="link-icon"><font-awesome-icon icon="envelope" class="web-icon mail"/></a>
                 <a href="http://github.com/shoma3571" class="link-icon"><font-awesome-icon :icon="['fab','github']" class="web-icon github"/></a>
                 <a href="https://shoma3571.hatenablog.com/" class="link-icon"><font-awesome-icon icon="blog" class="web-icon hateblo"/></a>
